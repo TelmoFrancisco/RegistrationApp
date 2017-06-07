@@ -1,0 +1,49 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "com.mycompany.regplat",
+      "nativeLanguage": "pt-pt"
+    },
+    "jhipsterVersion": "4.5.2",
+    "baseName": "RegPlat",
+    "packageName": "com.mycompany.regplat",
+    "packageFolder": "com/mycompany/regplat",
+    "serverPort": "8080",
+    "authenticationType": "jwt",
+    "hibernateCache": "ehcache",
+    "clusteredHttpSession": false,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "mysql",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": "eureka",
+    "buildTool": "maven",
+    "enableSocialSignIn": true,
+    "jwtSecretKey": "b889fe1c3bc576c64f2513637a6c35300458ca0d",
+    "clientFramework": "angular1",
+    "useSass": false,
+    "clientPackageManager": "yarn",
+    "applicationType": "monolith",
+    "testFrameworks": [],
+    "jhiPrefix": "jhi",
+    "otherModules": [
+      {
+        "name": "generator-jhipster-nav-element",
+        "version": "1.2.2"
+      }
+    ],
+    "enableTranslation": true,
+    "nativeLanguage": "pt-pt",
+    "languages": [
+      "pt-pt",
+      "nl",
+      "en",
+      "fr",
+      "de",
+      "it",
+      "es"
+    ]
+  }
+}
