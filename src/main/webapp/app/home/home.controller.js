@@ -29,5 +29,26 @@
         function register () {
             $state.go('register');
         }
+        
+        "use strict";
+        $(".number-counters").appear(function () {
+            $(".number-counters [data-to]").each(function () {
+                var e = $(this).attr("data-to");
+                $(this).delay(6e3).countTo({
+                    from: 50,
+                    to: e,
+                    speed: 3e3,
+                    refreshInterval: 50
+                })
+            })
+        });
+        
+        var slideHeight = $(window).height();
+    	
+    	$('#slider, .carousel.slide, .carousel-inner, .carousel-inner .item').css('height',slideHeight);
+    	
+    	$(window).resize(function(){'use strict',
+    		$('#container,#container,#slider, .carousel.slide, .carousel-inner, .carousel-inner .item').css('height',slideHeight);
+    	});
     }
 })();
